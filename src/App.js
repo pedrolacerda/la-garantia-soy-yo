@@ -26,9 +26,15 @@ const App = () => {
 
   return (
     <div className="container mx-auto p-4">
-      <h1 className="text-3xl font-bold text-center mb-4">La Garantia Soy Yo</h1>
+      <header className="bg-red-500 text-white p-4">
+        <h1 className="text-3xl font-bold">La Garantia Soy Yo</h1>
+        <p className="text-xl">Almost original, almost yours</p>
+      </header>
       <ProductList products={products} addToCart={addToCart} />
       <Cart cart={cart} />
+      <footer className="bg-blue-500 text-white p-4 text-center">
+        <p>Footer content here</p>
+      </footer>
     </div>
   );
 };

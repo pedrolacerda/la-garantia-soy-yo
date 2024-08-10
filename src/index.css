@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header {
+  background-color: #FF0000; /* Red */
+  color: #FFFFFF; /* White */
+  padding: 1rem;
+}
+
+.header h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.header p {
+  font-size: 1.25rem;
+}
+
+.footer {
+  background-color: #0000FF; /* Blue */
+  color: #FFFFFF; /* White */
+  padding: 1rem;
+  text-align: center;
+}
