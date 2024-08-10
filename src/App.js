@@ -26,10 +26,6 @@ const App = () => {
 
   return (
     <div className="container mx-auto p-4">
-      <header className="bg-red-500 text-white p-4">
-        <h1 className="text-3xl font-bold">La Garantia Soy Yo</h1>
-        <p className="text-xl">Almost original, almost yours</p>
-      </header>
       <ProductList products={products} addToCart={addToCart} />
       <Cart cart={cart} />
     </div>
